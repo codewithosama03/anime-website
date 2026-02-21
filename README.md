@@ -35,10 +35,13 @@ Cards Grid: Anime preview layout
 Sidebar: Mobile navigation drawer
 Responsive CSS: Media queries for different screen sizes
 
-Screenshots
-Desktop View
+## Screenshots
 
-Mobile View
+### Desktop View
+![Home Page](desktop1.png)
+
+### Mobile View
+![Mobile View](mobile1.png)
 
 Technologies Used
 
@@ -66,7 +69,7 @@ Preparing and deploying a project using GitHub Pages
 
 Live Preview
 
-https://yourusername.github.io/anime-go/
+https://codewithosama03.github.io/anime-website/
 
 Notes
 
