@@ -1,43 +1,29 @@
 
+// navbar
 
-function showsidebar(){
-    const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'flex' 
-  } 
-  
-  function hidesidebar() {
-    const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'none' 
-  }
-
-
-
-
-// slide show
-
-  let slideIndex = 0;
-
-function showSlides() {
-    let slides = document.querySelectorAll(".slide");
-
-    slides.forEach(slide => {
-        slide.style.display = "none";
-    });
-
-    slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
+function showsidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.transform = 'translateX(0)';
 }
 
-// Start the slideshow
-showSlides();
+function hidesidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.transform = 'translateX(100%)';
+}
 
 
+// hero slides
+const slides = document.querySelectorAll(".hero-slide");
+let index = 0;
 
+setInterval(() => {
+    slides[index].classList.remove("active");
 
+    index++;
+    if (index >= slides.length) {
+        index = 0;
+    }
 
+    slides[index].classList.add("active");
+
+}, 4000);

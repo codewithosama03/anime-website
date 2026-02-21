@@ -9,14 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+
+   <!-- nav -->
     <nav>
 
   <!-- main bar -->
   <ul>   
    <!-- anime go here -->
-    <li class="edit-anime">  <a href="#"> </a> </li>
-   
-    <div class="searchbar"> <input type="text" placeholder="search anime"> 
+    
+<div class="anime-logo small-logo">
+    <span class="anime-text-blue">Anime</span><span class="anime-text-red">GO</span>
+</div>
+
+    <div class="searchbar"> <input type="text" placeholder="Search Anime...."> 
       <!-- search icon -->
        <div class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg> </div>
     </div>
@@ -26,13 +31,22 @@
     <li class="hideonmobile"><a href="#"> Popular</a> </li>
     <li class="hideonmobile"><a href="#"> Ongoing </a> </li>
     <li class="hideonmobile"><a href="#"> Log-In</a> </li>
-    <li class="menu-button" onclick=showsidebar()> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>  </a></li>
+    <li class="menu-button" onclick=showsidebar()> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="26px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>  </a></li>
   </ul>
   
   <!-- sidebar nav 2 -->
   <ul class="sidebar">
-   <li onclick=hidesidebar()><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>  </a> </li>
+  
+   <div class="anime-logo small-logo">
+    <span class="anime-text-blue">Anime</span><span class="anime-text-red">GO</span>
+   </div>
 
+   <li onclick=hidesidebar()><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>  </a> </li>
+
+   <li> <a href="#">  <div class="searchbar2"> <input type="text" placeholder="Search Anime...."> 
+      <!-- search icon -->
+       <div class="search-icon2"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg> </div>
+    </div></a></li>
    <li> <a href="#"> Genres </a></li>
    <li> <a href="#"> Added</a></li>
    <li> <a href="#"> Poular</a></li>
@@ -42,33 +56,31 @@
   </ul>
 
     </nav>
-    <header> Watch your favourite anime at ANIME GO!
-     
-     
-      <div class="slideshow-container">
-         <div class="slide fade">
-             <img src="jjk-main.webp" alt="Image 1">
-         </div>
-         <div class="slide fade">
-             <img src="demonsalayer.jpg" alt="Image 2">
-         </div>
-         <div class="slide fade">
-             <img src="akastki.jpg" alt="Image 3">
-         </div>
-         <div class="slide fade">
-             <img src="bleach-characters-ii-wallpaper-preview.jpg" alt="Image 3">
-         </div>
-         <div class="slide fade">
-             <img src="straw-hat-pirates-one-piece-anime-vs056f716bbzwjqv.jpg" alt="Image 3">
-         </div>
-     </div>
-    
-   </header>
+
+    <!-- nav end -->
+
+  
+    <!-- hero section start -->
+ 
+ <header class="hero">
+    <h1>Watch Your Favourite Anime At ANIME GO!</h1>
+
+    <div class="hero-slides">
+        <img src="jjk-main.webp" class="hero-slide active">
+        <img src="demonsalayer.jpg" class="hero-slide">
+        <img src="akastki.jpg" class="hero-slide">
+        <img src="bleach-characters-ii-wallpaper-preview.jpg" class="hero-slide">
+        <img src="straw-hat-pirates-one-piece-anime-vs056f716bbzwjqv.jpg" class="hero-slide">
+    </div>
+</header>
+
+ <!-- hero section end -->
 
 
+<!-- main start -->
     <main>
 
-
+      <!-- top 10 box -->
    <div class="slide-show"> 
       <div class="top10"> TOP 10 ANIME </div> 
       
@@ -123,11 +135,11 @@
          <div class="anime-text-num"> 10 </div>
       </div>
 
-     
    </div>
 
+      <!-- top 10 box end -->
 
-
+      <!-- main grid container -->
 <div class="container">
       <div class="box"> 
                  <div class="line1">
@@ -137,12 +149,12 @@
                   <img src="aot.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc r reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="aot.jpg" alt=""></div>
-             <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch now  </div>
            </div>     
        </div>   
   <!--  end  -->
@@ -154,12 +166,12 @@
                   <img src="onepiece.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni  magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nes venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="onepiece.jpg" alt=""></div>
-             <div class="flying_div-play"> <a href="#">  <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch now   </div>
            </div>     
        </div>   
   <!--  end  -->
@@ -171,12 +183,12 @@
                   <img src="naruto.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni venia  magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nes dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="naruto.jpg" alt=""></div>
-             <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch Now</a>  </div>
            </div>     
        </div>   
   <!--  end  -->
@@ -188,12 +200,12 @@
                   <img src="death-note.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni  reprehenderit magni venia  magni venia dknfnfnwfwownwof, minus quisquam  venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="death-note.jpg" alt=""></div>
-             <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch Now</a>  </div>
            </div>     
        </div>   
   <!--  end  -->
@@ -205,12 +217,12 @@
                   <img src="chainsaw.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit  reprehenderit magni venia  magni venia dknfnfnwfwownwof, minus quisquam  magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="chainsaw.jpg" alt=""></div>
-             <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch Now</a>  </div>
            </div>     
        </div>   
   <!--  end  -->
@@ -222,12 +234,12 @@
                   <img src="jjk.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof,  reprehenderit magni venia  magni venia dknfnfnwfwownwof, minus quisquam  minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="jjk.jpg" alt=""></div>
-             <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch Now</a>  </div>
            </div>     
        </div>   
       <div class="box"> 
@@ -238,12 +250,12 @@
                   <img src="demonslayer.png" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit  reprehenderit magni venia  magni venia dknfnfnwfwownwof, minus quisquam  nesc...read more
                    </div>
   <!-- div overlay -->
           <div class="overlay">
              <div class="flying_div-img"> <img src="demonslayer.png" alt=""></div>
-             <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+             <div class="flying_div-play"> Watch Now</a>  </div>
            </div>     
        </div>   
       <div class="box"> 
@@ -254,12 +266,12 @@
                   <img src="dragon.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni venia  reprehenderit magni venia  magni venia dknfnfnwfwownwof, minus quisquam  dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
   <div class="overlay">
    <div class="flying_div-img"> <img src="dragon.jpg" alt=""></div>
-   <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+   <div class="flying_div-play"> Watch Now</a>  </div>
  </div>     
 </div>   
 <!-- end -->
@@ -271,12 +283,12 @@
                   <img src="sololeveling.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof,   reprehenderit magni venia dknfnfnwfwownwof, mminus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
   <div class="overlay">
    <div class="flying_div-img"> <img src="sololeveling.jpg" alt=""></div>
-   <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+   <div class="flying_div-play"> Watch Now</a>  </div>
  </div>     
 </div>   
 <!-- end -->
@@ -293,7 +305,7 @@
   <!-- div overlay -->
   <div class="overlay">
    <div class="flying_div-img"> <img src="bleach.jpg" alt=""></div>
-   <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+   <div class="flying_div-play"> Watch Now</a>  </div>
  </div>     
 </div>   
 <!-- end -->
@@ -310,7 +322,7 @@
   <!-- div overlay -->
   <div class="overlay">
    <div class="flying_div-img"> <img src="classroom.png" alt=""></div>
-   <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+   <div class="flying_div-play">Watch Now  </a>  </div>
  </div>     
 </div>   
 <!-- end -->
@@ -322,50 +334,69 @@
                   <img src="bluelock.jpg" alt="">
                  </div>
                     <div class="line3">
-                   e iure! Illum pariatur reprehenderit magni venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
+                   e iure! Illum pariatur reprehenderit magni  reprehenderit magni venia dknfnfnwfwownwof, m venia dknfnfnwfwownwof, minus quisquam blanditiis impedit nesc...read more
                    </div>
   <!-- div overlay -->
   <div class="overlay">
    <div class="flying_div-img"> <img src="bluelock.jpg" alt=""></div>
-   <div class="flying_div-play"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z" fill="black"/></svg></a>  </div>
+   <div class="flying_div-play"> Watch Now</a>  </div>
  </div>     
 </div>   
 <!-- end -->
 </div>
 
 
-<!--  -->
+<!-- main  end -->
 </main>
-<div class="down-nav"> <h2>watch most popular  anime at anime go!</h2> </div>
 
+<div class="social"> 
+   <ul class="category">
+      <li> <a href="#"> Dubbed Anime </a> </li>
+      <li> <a href="#"> Action  </a> </li>
+      <li> <a href="#"> Cars </a> </li>
+      <li> <a href="#"> Drama </a> </li>
+   </ul>    
+   <ul class="category">
+      <li> <a href="#"> Most Popular </a> </li>
+      <li> <a href="#"> Fantasy </a> </li>
+      <li> <a href="#"> Ecchi </a> </li>
+      <li> <a href="#"> Horror  </a> </li>
+   </ul>    
+   <ul class="category">
+      <li> <a href="#"> Movies </a> </li>
+      <li> <a href="#"> Adventure </a> </li>
+      <li> <a href="#"> Comedy </a> </li>
+      <li> <a href="#"> Demons </a> </li>
+   </ul>    
+   <ul class="category">
+      <li> <a href="#"> Events </a> </li>
+      <li> <a href="#"> Game </a> </li>
+      <li> <a href="#"> Web Series </a> </li>
+      <li> <a href="#"> More Animes </a> </li>
+   </ul>    
+</div>
 
+<div class="down-nav">
 
-    <div class="social"> 
-      <ul class="category">
-        <li> <a href="#"> dubbed anime </a> </li>
-        <li> <a href="#"> action  </a> </li>
-        <li> <a href="#"> cars </a> </li>
-        <li> <a href="#"> drama </a> </li>
-      </ul>    
-      <ul class="category">
-        <li> <a href="#"> most popular </a> </li>
-        <li> <a href="#"> fantasy </a> </li>
-        <li> <a href="#"> ecchi </a> </li>
-        <li> <a href="#"> horror  </a> </li>
-      </ul>    
-      <ul class="category">
-        <li> <a href="#"> movies </a> </li>
-        <li> <a href="#"> adventure </a> </li>
-        <li> <a href="#"> comedy </a> </li>
-        <li> <a href="#"> demons </a> </li>
-      </ul>    
-      <ul class="category">
-        <li> <a href="#"> events </a> </li>
-        <li> <a href="#"> game </a> </li>
-        <li> <a href="#"> web series </a> </li>
-        <li> <a href="#">  more </a> </li>
-      </ul>    
+    <div class="about-container">
+
+      <h1 class="anime-logo">
+    <span class="anime-text-blue">Anime</span><span class="anime-text-red">GO</span>
+   </h1>
+
+        <div class="about-content">
+            <h2>Watch Most Popular Anime at Anime Go!</h2>
+            <p>
+                Anime Go is your ultimate destination for streaming the most popular and trending anime series online.
+                Discover top-rated shows, explore new releases, and enjoy high-quality streaming all in one place.
+                Whether you're into action, romance, fantasy, or adventure — Anime Go has something for every anime fan.
+            </p>
+        </div>
+
     </div>
+
+</div>
+
     <div class="connect"> 
         <div class="links">
         <a class="icon"  href="#"> <i class="fa-brands fa-instagram"></i> </a>
@@ -378,7 +409,7 @@
         </div>
     </div>
     <footer> <div class="copy-right"><i class="fa-solid fa-copyright"></i></div> 
-              <div> ANIMEGO.TO.All RIGHTS RESERVED</div>  
+              <div> ANIMEGO.TO.All RIGHTS RESERVED</div>   
     </footer>
 </body>
 <script src="script.js"></script>
