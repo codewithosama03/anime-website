@@ -1,5 +1,6 @@
-Anime GO – UI Streaming Platform Clone
-About
+## Anime GO – UI Streaming Platform Clone
+
+## About
 
 Anime GO is a responsive anime streaming website UI inspired by modern streaming platforms.
 
@@ -9,7 +10,7 @@ It was originally built as a UI clone project and has now been modified and impr
 
 This project will continue to evolve with future upgrades and UI improvements.
 
-Features
+## Features
 
 Responsive navigation bar
 
@@ -27,7 +28,7 @@ Mobile-first improvements
 
 Organized CSS structure
 
-Project Structure / Components
+## Project Structure / Components
 
 Navbar: Responsive navigation with sidebar toggle
 Hero Section: Featured anime banner
@@ -48,7 +49,7 @@ Responsive CSS: Media queries for different screen sizes
 
 ![Mobile View](mobile3.png)
 
-Technologies Used
+## Technologies Used
 
 HTML5
 
@@ -58,7 +59,7 @@ JavaScript (Vanilla JS)
 
 Git & GitHub
 
-Learning Outcome
+## Learning Outcome
 
 Building structured responsive layouts
 
@@ -72,11 +73,11 @@ Organizing CSS for scalability
 
 Preparing and deploying a project using GitHub Pages
 
-Live Preview
+## Live Preview
 
 https://codewithosama03.github.io/anime-website/
 
-Notes
+## Notes
 
 This project focuses purely on frontend UI and layout design.
 
